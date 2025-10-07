@@ -1,1 +1,4 @@
 # LuxuryEstate-Property-Data-Scraper
+
+### Project Summary
+This Python web scraper targets LuxuryEstate.com to extract premium property listings from configurable locations worldwide (e.g., via city and country variables like 'new-york/new-york' and 'united-states'). It handles pagination across specified page ranges, gathers unique listing URLs, and parses essential attributes including title, price, room/bedroom/bathroom counts, construction year, cooling systems, elevator presence, views, and references using BeautifulSoup and lxml for efficient HTML navigation. The system automates data extraction with randomized headers, along with sleep delays, structured parsing, enhanced stealth, and controlled request pacing to minimize blocking.  Data is aggregated into a Pandas DataFrame and exported to CSV for downstream analysis, making it versatile for real estate market intelligence, or comparative studies. 
